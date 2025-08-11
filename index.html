@@ -1,12 +1,88 @@
 <section id="prompt-erklaerung">
+  <style>
+    @font-face {
+      font-family: 'Aptos';
+      src: local('Aptos'), local('Aptos-Regular');
+      /* Falls lokal nicht vorhanden, auf Arial/Helvetica zurückfallen */
+    }
+
+    #prompt-erklaerung {
+      font-family: 'Aptos', Arial, Helvetica, sans-serif;
+      background-color: #f7faff;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    #prompt-erklaerung h2 {
+      color: #004080;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #prompt-erklaerung ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #prompt-erklaerung li {
+      margin-bottom: 15px;
+      padding-left: 40px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    #prompt-erklaerung li::before {
+      content: "💡";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.2em;
+    }
+  </style>
+
+  <h2>Was ist ein Prompt?</h2>
+  <ul>
+    <li>Ein <strong>Prompt</strong> ist eine Anweisung oder Frage, die Sie an eine KI stellen.</li>
+    <li>Er beschreibt möglichst genau, was die KI tun oder beantworten soll.</li>
+    <li>Je klarer und genauer der Prompt formuliert ist, desto besser ist meist das Ergebnis.</li>
+    <li>Je nach eingesetztem KI-Tool kann die Formulierung leicht variieren.</li>
+    <li>Ein guter
+<section id="prompt-beispiele">
   <div class="card">
-    <h2>💡 Was ist ein Prompt?</h2>
-    <ul class="list-tight">
-      <li>📝 <strong>Definition:</strong> Ein Prompt ist eine Eingabe oder Anweisung, die Sie einer KI geben, um eine bestimmte Antwort oder Ausgabe zu erhalten.</li>
-      <li>🔍 <strong>Vergleich:</strong> Man kann ihn sich wie eine Frage oder Aufgabenbeschreibung vorstellen, die möglichst klar formuliert sein sollte.</li>
-      <li>🎯 <strong>Genauigkeit zählt:</strong> Je präziser Sie Ihr Anliegen beschreiben, desto besser trifft die KI das gewünschte Ergebnis.</li>
-      <li>⚙️ <strong>Tool-Abhängigkeit:</strong> Je nach KI-System oder Plattform kann ein Prompt unterschiedlich aufgebaut sein – von kurzen Sätzen bis hin zu komplexen Beschreibungen.</li>
-      <li>🗺️ <strong>Merke:</strong> Ein guter Prompt ist wie eine klare Wegbeschreibung für die KI, um möglichst nah an Ihr Ziel zu kommen.</li>
-    </ul>
+    <h3>Beispiele für Prompts</h3>
+    <p>Hier sehen Sie den Unterschied zwischen einem kurzen, knappen Prompt und einem längeren, sehr detaillierten Prompt.</p>
+    
+    <h4>Kurz & knapp (ca. 25 Wörter, Bildbeschreibung)</h4>
+    <blockquote style="font-style: italic; color: #333;">
+      „Erstelle ein fotorealistisches Bild von einem roten Oldtimer-Cabrio, das an einem sonnigen Tag auf einer Küstenstraße fährt, mit Meerblick im Hintergrund.“
+    </blockquote>
+    
+    <h4>Lang & detailliert (ca. 150 Wörter, Textgenerierung)</h4>
+    <blockquote style="font-style: italic; color: #333;">
+      „Schreibe einen inspirierenden LinkedIn-Beitrag aus Sicht eines erfahrenen Vertriebsmanagers, der auf ein erfolgreiches Projekt zurückblickt. Beschreibe, wie ein schwieriger Kunde durch aktives Zuhören, klare Kommunikation und maßgeschneiderte Lösungen überzeugt wurde. Betone die Bedeutung von Vertrauen, persönlichem Engagement und Hands-on-Mentalität im B2B-Vertrieb. Füge drei praxisnahe Tipps ein, wie Vertriebsteams ähnliche Erfolge erzielen können, und formuliere diese als nummerierte Liste. Verwende eine positive, motivierende Sprache, die sowohl Fachkollegen als auch Einsteiger anspricht. Der Beitrag soll zwischen 150 und 180 Wörtern lang sein und mit einem kurzen, einprägsamen Fazit enden, das zum Handeln anregt. Bitte schreibe so, dass der Text direkt veröffentlicht werden kann, ohne dass zusätzliche Anpassungen notwendig sind.“
+    </blockquote>
   </div>
 </section>
+
+<style>
+  #prompt-beispiele {
+    font-family: 'Aptos', sans-serif;
+  }
+  #prompt-beispiele .card {
+    background-color: #f9fbff;
+    border: 1px solid #d6e4ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  #prompt-beispiele h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  #prompt-beispiele h4 {
+    color: #003d80;
+    margin-top: 20px;
+  }
+</style>
